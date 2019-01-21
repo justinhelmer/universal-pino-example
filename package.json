@@ -1,0 +1,21 @@
+{
+  "name": "pino-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pino": "^5.10.6",
+    "pump": "^3.0.0",
+    "split2": "^3.1.0",
+    "through2": "^3.0.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index | node logger/transport"
+  },
+  "author": "",
+  "license": "ISC"
+}
